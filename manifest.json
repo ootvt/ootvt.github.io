@@ -1,16 +1,16 @@
 {
-  "short_name": "浙江健康码",
-  "name": "浙江健康码",
+  "short_name": "健康码",
+  "name": "健康码",
   "icons": [
     {
-      "src": "static/logo.ico",
-      "type": "image/vnd.microsoft.icon",
-      "sizes": "64x64"
+      "src": "common/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
     }
   ],
-  "id": "ilovexjp-zhejiang-hc-simulator",
+  "id": "ilovexjp-index",
   "start_url": ".",
   "display": "standalone",
   "scope": "/",
-  "description": "浙江健康码模拟"
+  "description": "健康码模拟"
 }
