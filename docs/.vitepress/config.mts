@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
-const baseUrl = 'https://ootvt.github.io/'
+const baseUrl = 'https://ootvt.github.io'
 const RSS: RSSOptions = {
   title: 'ootvt',
   baseUrl,
