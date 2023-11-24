@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-rc.30"
+  },
+  "dependencies": {
+    "vitepress-plugin-rss": "^0.2.0"
   }
 }

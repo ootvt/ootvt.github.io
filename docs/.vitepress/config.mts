@@ -1,5 +1,12 @@
 import { defineConfig } from 'vitepress'
 
+import { RssPlugin, RSSOptions } from 'vitepress-plugin-rss'
+const baseUrl = 'https://ootvt.github.io/'
+const RSS: RSSOptions = {
+  title: 'ootvt',
+  baseUrl,
+  copyright: 'Copyright (c) 2023-present, ootvt',
+}
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ootvt",
@@ -22,5 +29,13 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: '/' }
     ]
+  },
+  vite: {
+    // ↓↓↓↓↓
+    plugins: [RssPlugin(RSS)]
+    // ↑↑↑↑↑
   }
 })
+
+
+
