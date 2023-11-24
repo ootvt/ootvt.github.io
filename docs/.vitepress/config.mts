@@ -22,6 +22,7 @@ export default defineConfig({
         text: '2023',
         items: [
           { text: '第一篇博客', link: '/2023/第一篇博客' },
+          { text: '第二篇博客', link: '/2023/第二篇博客' },
         ]
       }
     ],
